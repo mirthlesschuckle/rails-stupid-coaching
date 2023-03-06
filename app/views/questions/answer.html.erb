@@ -1,0 +1,17 @@
+<div class="container p-5">
+
+  <h1>Stupid Coaching</h1>
+  <div class="justify-content-between ms-1 mt-3">
+    <div class="ms-1 ps-2 border-start border-4">
+      <p><%= @question %></p>
+      <p>-You</p>
+    </div>
+
+    <div class="ms-1 ps-2 border-start border-4 mt-3">
+      <p><%= @result %></p>
+      <p>-Your coach</p>
+    </div>
+  </div>
+  <%= link_to "Ask a new question", ask_path %>
+
+</div>
